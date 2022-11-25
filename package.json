@@ -1,0 +1,8 @@
+{
+  "engines": {
+    "node": ">=18.12.1",
+    "npm": "please-use-yarn",
+    "yarn": "= 3.24.1"
+  },
+  "packageManager": "yarn@3.3.0"
+}
