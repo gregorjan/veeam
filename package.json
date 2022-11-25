@@ -4,5 +4,8 @@
     "npm": "please-use-yarn",
     "yarn": "= 3.24.1"
   },
-  "packageManager": "yarn@3.3.0"
+  "packageManager": "yarn@3.3.0",
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  }
 }
