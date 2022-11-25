@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "build:cloudflare": "shx mv .nvmrc-cloudflare .nvmrc && vite build",
+    "build:cloudflare": "vite build",
     "preview": "vite preview",
     "prettier:fix": "prettier -w 'src/**/*.{js,jsx,ts,tsx}'",
     "prettier": "prettier -c 'src/**/*.{js,jsx,ts,tsx}'",
