@@ -6,7 +6,6 @@ describe('App', () => {
     const screen = render(<App />)
     //* baseElement is a wrapper around App. To access App we need to grab first child.
     const app = screen.baseElement.children[0]
-    console.log(app.hasChildNodes())
     expect(app.hasChildNodes()).toBe(true)
   })
 })
