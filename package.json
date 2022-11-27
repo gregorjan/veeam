@@ -16,6 +16,10 @@
     "build-storybook": "storybook build -o dist/storybook"
   },
   "dependencies": {
+    "@linaria/core": "^4.2.2",
+    "@linaria/react": "^4.3.0",
+    "@linaria/rollup": "^4.2.2",
+    "linaria": "^4.1.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
