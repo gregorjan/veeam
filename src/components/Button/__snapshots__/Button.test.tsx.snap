@@ -1,0 +1,31 @@
+// Vitest Snapshot v1
+
+exports[`Button > variant prop > defaults to primary variant 1`] = `
+<button
+  class="ssc0o8j"
+  style="--ssc0o8j-0: white; --ssc0o8j-1: #111; --ssc0o8j-2: rgba(0, 0, 0, 0);"
+  type="button"
+>
+  button
+</button>
+`;
+
+exports[`Button > variant prop > overides to primary variant 1`] = `
+<button
+  class="ssc0o8j"
+  style="--ssc0o8j-0: white; --ssc0o8j-1: #111; --ssc0o8j-2: rgba(0, 0, 0, 0);"
+  type="button"
+>
+  button
+</button>
+`;
+
+exports[`Button > variant prop > overides to secondary variant 1`] = `
+<button
+  class="ssc0o8j"
+  style="--ssc0o8j-0: #111; --ssc0o8j-1: rgba(0, 0, 0, 0); --ssc0o8j-2: #111;"
+  type="button"
+>
+  button
+</button>
+`;
