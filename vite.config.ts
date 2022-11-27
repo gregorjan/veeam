@@ -7,13 +7,16 @@ import linaria from '@linaria/rollup'
 export default defineConfig({
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src/'),
+      '@': path.resolve(__dirname, './src'),
     },
   },
   plugins: [
     react(),
     linaria({
       sourceMap: process.env.NODE_ENV !== 'production',
+      babelOptions: {
+        presets: ['@babel/preset-typescript'],
+      },
     }),
   ],
   test: {

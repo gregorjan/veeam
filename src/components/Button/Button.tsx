@@ -1,6 +1,6 @@
 import { ComponentProps } from 'react'
 import { styled } from '@linaria/react'
-import { borderRadius, colors, rem, spacers } from '@styles'
+import { borderRadius, colors, rem, spacers } from '@/styles'
 
 interface StyledProps {
   variant?: 'primary' | 'secondary'
@@ -24,6 +24,13 @@ const StyledButton = styled.button<StyledProps>`
   color: ${({ variant }) => (variant === 'primary' ? colors.white : colors.black)};
   background: ${({ variant }) => (variant === 'primary' ? colors.black : colors.transparent)};
   border: 1px solid ${({ variant }) => (variant === 'primary' ? colors.transparent : colors.black)};
+  &:hover {
+    background-color: ${colors.grey};
+  }
+
+  &:active {
+    background-color: ${colors.grey};
+  }
 `
 
 export const Button = ({ children, type = 'button', variant = 'primary', ...props }: ButtonProps) => {

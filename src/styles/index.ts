@@ -19,4 +19,5 @@ export const colors = {
   transparent: 'rgba(0, 0, 0, 0)',
   white: 'white',
   black: '#111',
+  grey: '#777',
 }
