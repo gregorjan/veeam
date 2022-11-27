@@ -5,15 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "build:cloudflare": "vite build",
+    "build": "tsc && vite build:cloudflare",
+    "build:cloudflare": "vite build && yarn build-storybook",
     "preview": "vite preview",
     "prettier:fix": "prettier -w 'src/**/*.{js,jsx,ts,tsx}'",
     "prettier": "prettier -c 'src/**/*.{js,jsx,ts,tsx}'",
     "test": "vitest",
     "test:run": "vitest run",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o dist/storybook"
   },
   "dependencies": {
     "react": "^18.2.0",

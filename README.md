@@ -4,8 +4,9 @@
 
 ### Prerequisites
 
-This project needs `node.js` runtime and `yarn` as package manager.
+This project needs `node.js` v17 runtime and `yarn` as package manager.
 It's highly recommended to use [nvm](https://github.com/nvm-sh/nvm) and run `nvm use`.
+Version 17 was chosen since it is the latest version working on cloudflare. 
 
 
 ### Instalation
@@ -31,3 +32,4 @@ Every Pull request is checked with github actions.
 ## Production
 
 This project is deployed to cloudflare [here](https://veeam.gregg.network/).
+Published storybook is available [here](https://veeam.gregg.network/storybook/).
