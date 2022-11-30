@@ -21,7 +21,8 @@
     "@linaria/rollup": "^4.2.2",
     "linaria": "^4.1.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-json-view-ts": "^1.16.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
